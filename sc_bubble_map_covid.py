@@ -6,6 +6,8 @@ from datetime import date
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 # This script assumes that the csv is comma delimited.
